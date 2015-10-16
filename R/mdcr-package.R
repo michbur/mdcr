@@ -10,4 +10,9 @@
 #' Maintainer: Stefan Roediger <Stefan.Roediger@@b-tu.de>
 #' @keywords package
 #' @importFrom readxl read_excel
+#' @importFrom reshape2 melt
+#' @importFrom XML xmlSApply
+#' @importFrom XML xmlTreeParse
+#' @importFrom XML xmlRoot
+#' @importFrom XML xmlValue
 NULL

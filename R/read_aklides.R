@@ -11,6 +11,7 @@
 
 read_aklides <-
   function(file_name) {
+        
     # read raw data
     raw_dat <- read_excel(file_name, skip = 1)
     # clean up column names and make them unique
@@ -18,7 +19,7 @@ read_aklides <-
     # convert non-ascii characters
     colnames(raw_dat) <- iconv(colnames(raw_dat), to="ASCII//TRANSLIT")
     # remove the last three summary rows from the raw data
-    dat <- raw_dat[1:(nrow(raw_dat) - 3), ]
+    dat <- raw_dat[1L:(nrow(raw_dat) - 3), ]
     # Select only columns required for the analysis
     area_dat_raw <- dat[c("X.coord.", "Y.coord.", "Area.um..", 
                           "Spots.n.", "FociOK.n.", 
