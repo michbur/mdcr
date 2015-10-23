@@ -13,7 +13,7 @@
 #' Maintainer: Stefan Roediger <Stefan.Roediger@@b-tu.de>
 #' @keywords package
 #' @importFrom readxl read_excel
-#' @importFrom reshape2 melts
+#' @importFrom reshape2 melt
 #' @importFrom tm Corpus
 #' @importFrom tm DataframeSource
 #' @importFrom tm DocumentTermMatrix
