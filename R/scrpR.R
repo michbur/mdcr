@@ -15,6 +15,7 @@
 #' @export scrpR
 
 scrpR <- function(expr = NULL, retmax = 20, service = "Entrez") {
+   # check for number of abstracts to retrieve information from
    ifelse(retmax < 1, retmax <- 1, retmax)
    ifelse(retmax > 100000, warning("use different restart value"), retmax)
    # use the service function to select a data base / source

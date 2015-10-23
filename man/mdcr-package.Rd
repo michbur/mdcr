@@ -4,14 +4,20 @@
 \name{mdcr-package}
 \alias{mdc}
 \alias{mdcr-package}
-\title{Analysis of experiments}
+\title{Web scraping and data processing with mdcr}
 \description{
-The package imports and processes various data.
+The package imports and processes dataset from image based multiparameter
+technologie such as the Aklieds platform (Medipan GmbH) and the VideoScan
+platform. Moreover the package contains function to scrap data from large
+databases such as PubMed and Medline.
 }
 \author{
 Stefan Roediger, Michal Burdukiewicz.
 
 Maintainer: Stefan Roediger <Stefan.Roediger@b-tu.de>
+}
+\references{
+Eric Sayers, The E-utilities In-Depth: Parameters, Syntax and More, 2015, http://www.ncbi.nlm.nih.gov/books/NBK25499/
 }
 \keyword{package}
 
