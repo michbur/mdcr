@@ -9,6 +9,7 @@
 #' @examples coRpus()
 #' @keywords heatmap
 #' @export coRpus
+#' @importFrom tm removeWords stemDocument stopwords stripWhitespace tm_map weightTf
 
 coRpus <- function(source = NULL) {
   # create a corpus source from as DataframeSource from the textinput data

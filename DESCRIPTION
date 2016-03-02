@@ -7,4 +7,10 @@ Author: Stefan Roediger, Michal Burdukiewicz
 Maintainer: Stefan Roediger <Stefan.Roediger@b-tu.de>
 Description: Import and processing of count data and unstructured data.
 License: GPL-3
-Imports: readxl, reshape2, XML, tm
+Imports:
+    pscl,
+    readxl,
+    reshape2,
+    XML,
+    tm
+RoxygenNote: 5.0.1
